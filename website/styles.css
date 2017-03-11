@@ -1,0 +1,77 @@
+      rect.bordered {
+        stroke: #E6E6E6;
+        stroke-width:2px;
+      }
+
+      text.mono {
+        font-size: 9pt;
+        font-family: Consolas, courier;
+        fill: #aaa;
+      }
+
+      text.axis-workweek {
+        fill: #000;
+      }
+
+      text.axis-worktime {
+        fill: #000;
+      }
+
+      body,html {
+      height: 100%;
+      }
+
+      body {
+      padding-top: 50px;
+      }
+
+
+      .wide {
+      background-position: -20px -120px;
+      height:calc(80% - 1px);
+      background-image:url('http://inmannews.wpengine.netdna-cdn.com/wp-content/uploads/2014/12/smarthome.png');
+      background-size:cover;
+      }
+
+      .wide2 {
+      background-color:#6EBEC7;
+      background-size:cover;
+      }
+
+
+      .wide img {
+      width:100%;
+      }
+
+      .logo {
+      color:#fff;
+      font-weight:800;
+      font-size:20pt;
+      padding:25px;
+      text-align:center;
+      }
+
+      .line {
+      padding-top:20px;
+      white-space:no-wrap;
+      overflow:hidden;
+      text-align:center;
+      }
+
+
+      .btn2{
+      background-color: #222222;
+      border: 1px solid transparent;
+      border-radius: 0;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      color: #9d9d9d;
+      margin-top: 13px;
+      }
+
+      .page-row {
+	  display: table-row;
+	  height: 1px;
+      }
+      
+      .page-row-expanded { height: 100%; }
